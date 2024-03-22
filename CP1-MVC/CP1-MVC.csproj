@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>CP1_MVC</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Views\Third\**" />
+    <Content Remove="Views\Third\**" />
+    <EmbeddedResource Remove="Views\Third\**" />
+    <None Remove="Views\Third\**" />
+  </ItemGroup>
+
+</Project>
